@@ -1,0 +1,2 @@
+Aqui eu coloquei os metodos para enviar dados no banco de dados
+será necessário pegar a chave do firebase e cola-lo dentro do firebase.json

@@ -1,0 +1,12 @@
+Aqui tem a divisão das classes em MVC
+Existe o arquivo principal, chamado de main.go
+a main pode chamar os itens das classes controller e as controllers podem chamar as services
+as services podem se comunicar entre si
+
+
+para que isso aconteca é necessário importar o package indicado no cabeçalho do codigo
+import(
+    "model"
+    "./model"
+    "../model"
+)

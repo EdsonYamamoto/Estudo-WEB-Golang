@@ -1,9 +1,6 @@
 
 <html lang="en">
 <body>
-<!--
-	Metodo como carregar a variavel passada pelo programa
--->
 	<h1>{{.VariavelString}}</h1>
 	
 	<table border="1">
@@ -13,38 +10,14 @@
 			<th>Booleana</th>
 			<th>Botao</th>
 		</tr>
-<!--
-	Metodo como fazer o FOR para um vetor, se houver um vetor dentro de outro vetor, eu devo fazer a estrutura novamente
--->
 		{{range .VetorTeste}}
 		<tr >
-			<td>
-				{{.Var1}}
-			</td>
-			<td>
-				{{.Var2}}
-			</td>
-			<td>
-				{{.Var3}}
-			</td>
-			<!--
-				Consigo tbm passar os dados como parametros no javascript
-			-->
-			<td>
-				<button onclick="parametro({{.Var1}},{{.Var2}},{{.Var3}})">
-					{{.Var1}}{{.Var2}}{{.Var3}}
-				</button>
-			</td>
-		</tr>
+			<td>{{.Var1}}</td>
+			<td>{{.Var2}}</td>
+			<td>{{.Var3}}</td>
+			<td>{{.Var3}}</td>
+			</tr>
 		{{end}}
 	</table>
-
-	<script>
-		function parametro(var1, var2, var3){
-			alert(var1);
-			alert(var2);
-			alert(var3);
-		}
-	</script>
 </body>
 </html>

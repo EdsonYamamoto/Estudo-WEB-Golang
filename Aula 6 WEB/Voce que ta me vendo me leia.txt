@@ -1,0 +1,3 @@
+nem tudo aquilo que foi feito é para funcioar 100%
+entao caso de um erro é necessário enviar respostas de volta
+o http.statusBadRequest retorna o codigo da web correspondente

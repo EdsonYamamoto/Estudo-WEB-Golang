@@ -1,0 +1,3 @@
+aqui tem uma aplicação de uma pagina rodando com informações dinamicas
+
+de uma olhada para ver como esta o HTML

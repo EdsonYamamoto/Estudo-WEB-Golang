@@ -1,0 +1,7 @@
+envie um post para a url: localhost:8090/post
+
+{
+		"var1":"jansdkjanskjd"
+		"var2":50	
+}
+ele executa o metodo indicado no post

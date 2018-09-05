@@ -1,0 +1,16 @@
+[
+    {
+        "apiName": "apiTeste",
+        "apiDescription": "",
+        "apiServer": "http://github.com/heroku/go-getting-started",
+        "apiUser": "http://github.com/heroku/go-getting-started",
+        "apiToken": "http://github.com/heroku/go-getting-started"
+    },
+    {
+        "apiName": "asdkjasdk",
+        "apiDescription": "",
+        "apiServer": "asdasdasdas",
+        "apiUser": "asdamdasd ",
+        "apiToken": "askdalskdnl"
+    }
+]
